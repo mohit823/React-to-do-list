@@ -1,16 +1,59 @@
-# React + Vite
+⚛️ React To-Do List App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive To-Do List application built using React + Vite.
+This app helps users manage daily tasks efficiently by adding and deleting tasks in real time.
 
-Currently, two official plugins are available:
+🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 Try it here:
+https://react-task-manager-mk.netlify.app/
 
-## React Compiler
+🚀 Features
+➕ Add new tasks
+❌ Delete tasks
+⌨️ Press Enter key to add task
+🧠 Input validation (no empty tasks)
+⚡ Instant UI updates using React state
+📱 Responsive UI
+🛠️ Technologies Used
+⚛️ React (Hooks – useState)
+⚡ Vite (Fast build tool)
+🎨 CSS
+📂 Project Structure
+📁 react-todo-app
+ ┣ 📁 src
+ ┃ ┣ 📄 App.jsx
+ ┃ ┣ 📄 App.css
+ ┃ ┗ 📄 main.jsx
+ ┣ 📄 index.html
+ ┣ 📄 package.json
+ ┗ 📄 vite.config.js
+⚙️ How It Works
+Tasks are stored in state (useState)
+When user:
+Clicks Add button → task is added to list
+Presses Enter key → task is added
+Clicks Delete → task is removed
+📦 Installation & Setup
+Clone the repository:
+git clone https://github.com/your-username/react-todo-app.git
+Go to project folder:
+cd react-todo-app
+Install dependencies:
+npm install
+Run the app:
+npm run dev
+🚀 Build for Production
+npm run build
+💡 Future Improvements
+✏️ Edit tasks
+💾 Save tasks in localStorage
+🌙 Dark mode
+📊 Task completion status
+🙌 Author
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Mohit Kumar
 
-## Expanding the ESLint configuration
+⭐ Support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you like this project, give it a ⭐ on GitHub!
