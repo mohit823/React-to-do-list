@@ -6,7 +6,7 @@ This app helps users manage daily tasks efficiently by adding and deleting tasks
 🌐 Live Demo
 
 👉 Try it here:
-https://react-task-manager-mk.netlify.app/
+(https://react-to-do-list-git-main-mohit823s-projects.vercel.app/)
 
 🚀 Features
 ➕ Add new tasks
